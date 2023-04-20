@@ -212,7 +212,7 @@
 ##' @import utils
 ##' @importFrom Matrix Matrix
 ##' @export
-ranger <- function(formula = NULL, data = NULL, num.trees = 500, mtry = NULL,
+rangerW1 <- function(formula = NULL, data = NULL, num.trees = 500, mtry = NULL,
                    importance = "none", write.forest = TRUE, probability = FALSE,
                    min.node.size = NULL, min.bucket = NULL, max.depth = NULL, 
                    replace = TRUE, sample.fraction = ifelse(replace, 1, 0.632), 
